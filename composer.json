@@ -1,5 +1,5 @@
 {
-    "name": "langleyfoxall/xero-laravel",
+    "name": "plustime-it/xero-laravel",
     "description": "💸 Access the Xero accounting system using an Eloquent-like syntax",
     "type": "library",
     "license": "LGPL-3.0-only",
@@ -12,12 +12,12 @@
     ],
     "require": {
         "php":">=7.1",
-        "laravel/framework": "^5.1||^6.0||^7.0||^8.0",
+        "laravel/framework": "^5.1||^6.0||^7.0||^8.0||^9.0",
         "calcinai/xero-php": "^2.2.2"
     },
     "autoload": {
         "psr-4": {
-            "LangleyFoxall\\XeroLaravel\\": "src/"
+            "PlusTimeIT\\XeroLaravel\\": "src/"
         }
     },
     "authors": [
@@ -25,12 +25,17 @@
             "name": "Jordan Hall",
             "email": "jordan@langleyfoxall.co.uk",
             "role": "Maintainer"
+        },
+        {
+            "name": "PlusTimeIT",
+            "email": "kane@plustime.com.au",
+            "role": "Developer"
         }
     ],
     "extra": {
         "laravel": {
             "providers": [
-                "LangleyFoxall\\XeroLaravel\\Providers\\XeroLaravelServiceProvider"
+                "PlusTimeIT\\XeroLaravel\\Providers\\XeroLaravelServiceProvider"
             ]
         }
     }

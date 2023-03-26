@@ -1,13 +1,12 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Xero Laravel configuration
     |--------------------------------------------------------------------------
     |
-    | This file is for storing the configuration for the Langley Foxall
+    | This file is for storing the configuration for the PLusTimeIT
     | Xero Laravel package.
     |
     */

@@ -1,6 +1,6 @@
 <?php
 
-namespace LangleyFoxall\XeroLaravel;
+namespace PlusTimeIT\XeroLaravel;
 
 use Calcinai\OAuth2\Client\Provider\Xero as Provider;
 use Calcinai\OAuth2\Client\XeroTenant;
@@ -8,8 +8,8 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Redirector;
 use InvalidArgumentException;
-use LangleyFoxall\XeroLaravel\Exceptions\InvalidOAuth2StateException;
-use LangleyFoxall\XeroLaravel\Exceptions\InvalidXeroRequestException;
+use PlusTimeIT\XeroLaravel\Exceptions\InvalidOAuth2StateException;
+use PlusTimeIT\XeroLaravel\Exceptions\InvalidXeroRequestException;
 use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
 use League\OAuth2\Client\Token\AccessTokenInterface;
 

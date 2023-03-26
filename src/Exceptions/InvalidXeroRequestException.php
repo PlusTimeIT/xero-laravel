@@ -1,6 +1,6 @@
 <?php
 
-namespace LangleyFoxall\XeroLaravel\Exceptions;
+namespace PlusTimeIT\XeroLaravel\Exceptions;
 
 class InvalidXeroRequestException extends \Exception
 {

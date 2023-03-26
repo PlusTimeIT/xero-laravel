@@ -10,14 +10,12 @@ implementation. Older Xero apps using OAuth 1.x are no longer supported.
     <img src="assets/images/xero-laravel-usage.png" />
 </p>
 
-<p align="center">
-    <a href="https://github.styleci.io/repos/153256469">
-        <img src="https://github.styleci.io/repos/153256469/shield?branch=master" alt="StyleCI">
-    </a>
-    <a href="https://packagist.org/packages/langleyfoxall/xero-laravel/stats">
-        <img src="https://img.shields.io/packagist/dt/langleyfoxall/xero-laravel.svg" />
-    </a>
-</p>
+## Credits
+This package was originally created and maintained by LangleyFoxall, as at 26/03/2023 there was no Laravel 9 compatibility and this update aims to fix that. 
+
+- LangleyFoxall
+- PlusTimeIT
+- [All Contributors](../../contributors)
 
 ## Installation
 
@@ -25,7 +23,7 @@ Xero Laravel can be easily installed using Composer. Just run the following
 command from the root of your project.
 
 ```bash
-composer require langleyfoxall/xero-laravel
+composer require plustime-it/xero-laravel
 ```
 
 If you have never used the Composer dependency manager before, head 
@@ -38,7 +36,7 @@ First, run the following `artisan` command from the root of your project. This
 will publish the package configuration file.
 
 ```bash
-php artisan vendor:publish --provider="LangleyFoxall\XeroLaravel\Providers\XeroLaravelServiceProvider"
+php artisan vendor:publish --provider="PlusTimeIT\XeroLaravel\Providers\XeroLaravelServiceProvider"
 ```
 
 You now need to populate the `config/xero-laravel-lf.php` file with the 
@@ -73,7 +71,7 @@ The controller below shows these steps in action.
 <?php
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use LangleyFoxall\XeroLaravel\OAuth2;
+use PlusTimeIT\XeroLaravel\OAuth2;
 use League\OAuth2\Client\Token\AccessToken;
 
 class XeroController extends Controller
@@ -138,7 +136,7 @@ To use Xero Laravel, you first need to get retrieve your user's stored access to
 to create a new `XeroApp` object which represents your Xero application.
 
 ```php
-use LangleyFoxall\XeroLaravel\XeroApp;
+use PlusTimeIT\XeroLaravel\XeroApp;
 use League\OAuth2\Client\Token\AccessToken;
 
 $user = auth()->user(); 

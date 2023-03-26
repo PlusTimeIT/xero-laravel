@@ -1,5 +1,5 @@
 <?php
-namespace LangleyFoxall\XeroLaravel;
+namespace PlusTimeIT\XeroLaravel;
 
 class Constants
 {
