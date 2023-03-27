@@ -11,7 +11,7 @@ implementation. Older Xero apps using OAuth 1.x are no longer supported.
 </p>
 
 ## Credits
-This package was originally created and maintained by LangleyFoxall, as at 26/03/2023 there was no Laravel 9 compatibility and this update aims to fix that. 
+This package was originally created and maintained by LangleyFoxall, as at 26/03/2023 there was no Laravel 9 /10 compatibility and this update aims to fix that. 
 
 - LangleyFoxall
 - PlusTimeIT
